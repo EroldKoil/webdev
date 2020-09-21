@@ -356,6 +356,7 @@ svg:hover circle {
     background-size: 100%;
     margin-top: 1px;
     cursor: pointer;
+    transition: opacity 0.7s;
 }
 
 .ourCommunity__slider_topArrow:hover {
@@ -367,7 +368,6 @@ svg:hover circle {
     transform: rotate(180deg);
     margin-top: -4px;
     opacity: 1;
-    transition: opacity 0.7s;
 }
 
 .ourCommunity__slider_topText {
