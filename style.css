@@ -355,14 +355,23 @@ svg:hover circle {
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 1px;
+    cursor: pointer;
+}
+
+.ourCommunity__slider_topArrow:hover {
+    opacity: 0.5;
+    transition: opacity 0.7s;
 }
 
 .arrowRight {
     transform: rotate(180deg);
     margin-top: -4px;
+    opacity: 1;
+    transition: opacity 0.7s;
 }
 
 .ourCommunity__slider_topText {
+    display: flex;
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
